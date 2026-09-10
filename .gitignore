@@ -1,5 +1,14 @@
 .vscode/
+__pycache__
 
 dataset/
 plots/
+artifacts/
+catboost_info/
+models/
+sand_box/
+
+05_LightGBM.ipynb
+submission.csv
+
 
