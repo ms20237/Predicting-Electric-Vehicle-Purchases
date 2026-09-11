@@ -176,3 +176,7 @@ Run notebooks in order — each stage writes artifacts the next stage depends on
 - Try a stacked meta-model (e.g. logistic regression on OOF predictions) instead of a linear weighted blend — may extract more from model disagreement than a simplex-weighted average can.
 - Add a diverse model (e.g. a neural net or a model trained on a different feature subset) to the ensemble, since the current 3 boosters are too correlated to gain much from blending.
 - Since `Subsidy_Available` and `Range_Anxiety_Level` are so dominant, a deeper look at their interaction surface (e.g. target encoding, more granular anxiety buckets) may still have headroom.
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
